@@ -39,7 +39,7 @@ header, section, footer {
 }
 
 .content-wrap {
-    width: 950px; 
+    max-width: 950px; /*max width so it becomes flexible*/
     margin: 0 auto;
 }
 
