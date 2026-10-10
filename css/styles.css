@@ -22,11 +22,13 @@ h1, h2 {
 
 h1 {
     font-size: 2.5rem;
+    margin: 0; /* Remove the default margin for h1 */
 }
 
 h2 {
     font-size: 1.5rem;
-    margin-top: 0; /* Remove the space from above */
+    /* margin-top: 0; Remove the space from above: This is not needed no more from step 3c as margin: 0 sets all the sides to 0 */
+    margin: 0; /* Remove the default margin for h2 */
 }
 
 h3 {
@@ -42,6 +44,7 @@ header, section, footer {
     max-width: 950px; /*max width so it becomes flexible*/
     margin: 0 auto;
     padding: 50px; /* padding for consistency */
+    overflow: hidden; /* clear the float for the profile image */
 }
 
 /* Header & Footer 
@@ -61,6 +64,13 @@ footer{
     color: white;
     padding: 10px; 
     display: inline-block; /* we want the links to align side by side */
+}
+
+.profile-img {
+    width: 300px; /* height is not needed as it will be automatically set to match the width */
+    border-radius: 50%; /* make the profile image circular */
+    float: left; /* make the profile image float to the left */
+    margin-right: 30px; /* add some space between the profile image and the text */
 }
 
 /* Work Experience
