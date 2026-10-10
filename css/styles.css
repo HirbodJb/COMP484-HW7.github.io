@@ -73,14 +73,27 @@ footer{
 }
 
 .profile-img {
-    width: 300px; /* height is not needed as it will be automatically set to match the width */
     border-radius: 50%; /* make the profile image circular */
-    float: left; /* make the profile image float to the left */
-    margin-right: 30px; /* add some space between the profile image and the text */
+    /* width: 300px; height is not needed as it will be automatically set to match the width: NOT NEEDED NO MORE AS COLUMN-NARROW GOT ADDED */
+    /* float: left; make the profile image float to the left: NOT NEEDED NO MORE AS COLUMN-NARROW GOT ADDED */
+    /* margin-right: 30px; add some space between the profile image and the text: NOT NEEDED NO MORE AS COLUMN-NARROW GOT ADDED */
 }
 
 header h1, header h2 { /* made this selector to only effect the h1 and h2 inside the header */
     margin: 0; 
+}
+
+.column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
 }
 
 /* Work Experience
