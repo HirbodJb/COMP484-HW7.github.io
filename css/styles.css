@@ -26,6 +26,7 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
+    margin-top: 0; /* Remove the space from above */
 }
 
 h3 {
@@ -41,6 +42,7 @@ header, section, footer {
 .content-wrap {
     max-width: 950px; /*max width so it becomes flexible*/
     margin: 0 auto;
+    padding: 50px; /* padding for consistency */
 }
 
 /* Header & Footer 
@@ -53,10 +55,13 @@ header{
 footer{
     background: #222831;
     color: #EEEEEE;
+    text-align: center; /* Center the text in the footer */
 }
 
-footer a {
-    color: #EEEEEE;
+.contact-info a {
+    color: white;
+    padding: 10px; 
+    display: inline-block; /* we want the links to align side by side */
 }
 
 /* Work Experience
