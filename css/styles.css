@@ -36,7 +36,6 @@ h3 {
 
 header, section, footer {
     display: flow-root; /* make sure layers are properly stacked */
-    padding: 24px 32px; /* add padding for better spacing */
 }
 
 .content-wrap {
