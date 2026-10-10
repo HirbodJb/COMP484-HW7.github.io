@@ -38,6 +38,11 @@ header, section, footer {
     padding: 24px 32px; /* add padding for better spacing */
 }
 
+.content-wrap {
+    width: 950px; 
+    margin: 0 auto;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header{
