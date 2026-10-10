@@ -46,7 +46,7 @@ In this hw, you’ll continue working on your resume site. You can continue buli
 
             g. Add a little bit of margin on the right side of your image, just to put some space between it and the text. Back in the profile-img selector, add (margin-right: 30 px). Save and go back to the browser and check for your changes. 
 
-5. Add the box model fix
+5. Add the box model fix (DONE)
             a. Let's add the box model fix. Use the snippet from the lecture and add it to your CSS file. This is going to go at the very top of your style sheet. Add it to the global section since this style is applied to every single element on the page.
 
 6. Add some columns to your page

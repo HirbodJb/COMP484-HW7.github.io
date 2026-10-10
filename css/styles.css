@@ -7,6 +7,14 @@
 
 /* Global styles 
 ------------------------------------*/
+html{
+    box-sizing: border-box; /* include padding and border in the element's total width and height */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit; /* ensure all elements and pseudo-elements inherit the box-sizing from html */
+}
+
 body {
     margin: 0; /* Remove the default browser margin */
     font-family: "Source Sans 3", Arial, sans-serif;
